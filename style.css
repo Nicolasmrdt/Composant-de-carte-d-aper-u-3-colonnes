@@ -1,0 +1,120 @@
+body {
+    margin: Opx;
+    font-family: monospace;
+}
+
+.container {
+    
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.sedans {
+    border-radius:10px 0px 0px 10px;
+    box-shadow: 5px 5px 0px 0px rgb(221, 221, 221);
+    background-color: hsl(31, 77%, 52%);
+    display: flex;
+    flex-direction: column;
+    width:200px;
+    height:300px;
+   
+}
+
+ img {
+    margin-left: 20px;
+    margin-top:20px;
+     width: 4em;
+     height: 3em;
+
+ }
+ 
+ .titre {
+
+   
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 20px;
+    margin-top:25px;
+
+ }   
+
+.suvs {
+    box-shadow: 5px 5px 0px 0px rgb(221, 221, 221);
+    display: flex;
+    flex-direction: column;
+    background-color:hsl(184, 100%, 22%);
+    width:200px;
+    height:300px;
+}
+
+.luxury {
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 5px 5px 0px 0px rgb(221, 221, 221);
+    display: flex;
+   flex-direction: column;
+    background-color:hsl(179, 100%, 13%);
+    width:200px;
+    height:300px;
+}
+
+.info {
+    color: hsl(0, 0%, 95%);
+    margin-top: 5px;
+    margin-left: 20px;  
+    text-align: left;
+    font-size: 10px;
+    margin-right:60px;
+}
+
+/* caractéristiques des boutons*/
+
+.button {
+    
+    margin-left: 20px;
+    margin-top: 20px;   
+}
+
+.button1:hover {
+    color: aliceblue;
+    background-color:hsl(31, 77%, 52%) ;
+}
+.button2:hover {
+    color: aliceblue;
+    background-color:hsl(184, 100%, 22%);
+}
+.button3:hover {
+    color: aliceblue;
+    background-color: hsl(179, 100%, 13%);
+}
+
+
+.button1 {
+       font-size: 10px;
+       height: 30px;
+       color: hsl(31, 77%, 52%);
+       background-color: aliceblue;
+       border-radius: 30px;
+       border: solid;
+
+}
+
+.button2 {
+    font-size: 10px;
+    height: 30px;
+    color:hsl(184, 100%, 22%);
+    border-radius: 30px;
+    border: solid;
+
+}
+
+.button3 {
+    font-size: 10px;
+    height: 30px;
+    color: hsl(179, 100%, 13%);
+    border-radius: 30px;
+    border: solid;
+
+}
